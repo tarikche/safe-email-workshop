@@ -32,7 +32,7 @@ export default function Home() {
   return (
     <div className="flex flex-col items-center min-h-screen">
       <div className="mb-4 text-5xl p-4 flex items-center">
-        <h1 className="text-9xl font-bold text-blue-600">SafeEmail</h1>
+        <h1 className="text-9xl font-bold text-blue-600">Safe  Email</h1>
 
         <Link href="/tips">
           <button className="ml-4 bg-green-500 text-white font-bold py-2 px-4 rounded">
