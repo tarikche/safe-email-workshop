@@ -30,7 +30,12 @@ export default function Home() {
   };
 
   return (
-    <div className="flex flex-col items-center min-h-screen">
+    <div
+      className="flex flex-col items-center min-h-screen bg-cover bg-center"
+      style={{
+        backgroundImage: `url('/image1.jpg')`, // Use the path to the image in the public folder
+      }}
+    >
       <div className="mb-4 text-5xl p-4 flex items-center">
         <h1 className="text-9xl font-bold text-blue-600">SafeEmail</h1>
 
