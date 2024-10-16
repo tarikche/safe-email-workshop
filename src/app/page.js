@@ -19,7 +19,7 @@ export default function Home() {
         throw new Error(`HTTP error! status: ${response.status}`); // Throw error for non-2xx responses
       }
 
-      const data = await response.json(); // Parse JSON response
+      const data = await  response.json(); // Parse JSON response
       console.log(data.data.report.risk_score.result); // Log the risk score result
       setRiskScore(data.data.report.risk_score.result); // Store the risk score result in state
       setError(null); // Clear previous errors if the call was successful
