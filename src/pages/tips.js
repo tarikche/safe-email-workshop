@@ -2,6 +2,7 @@
 
 import Image from 'next/image';
 
+
 export default function Tips() {
   return (
     <div className='items-center justify-center'>
@@ -11,7 +12,7 @@ export default function Tips() {
         <p>
           Les emails sont l’un des moyens de communication les plus utilisés, mais aussi l’une des principales cibles des cybercriminels. Le phishing, les logiciels malveillants et l’usurpation d’identité sont quelques-unes des menaces courantes qui circulent par email. Il est essentiel de comprendre comment repérer ces attaques et comment protéger vos informations personnelles.
         </p>
-        <Image className='items-center justify-center' src="/1.png" alt="Description de l'image" width={900} height={500} />
+        <div style={{ display: 'flex', justifyContent: 'center' }}><Image src="/1.png" alt="Description de l'image" width={900} height={500} /></div>
 
         {/* Ajoute ici le contenu de la page des conseils */}
       </div>
@@ -30,7 +31,7 @@ export default function Tips() {
 
 
         </p>
-        <Image className='items-center justify-center' src="/2.png" alt="Description de l'image" width={900} height={500} />
+        <div style={{ display: 'flex', justifyContent: 'center' }}><Image src="/2.png" alt="Description de l'image" width={900} height={500} /></div>
         {/* Ajoute ici le contenu de la page des conseils */}
       </div>
       <div className="flex items-center justify-center min-h-screen">
@@ -44,7 +45,7 @@ export default function Tips() {
 
 
         </p>
-        <Image className='items-center justify-center' src="/3.png" alt="Description de l'image" width={900} height={500} />
+        <div style={{ display: 'flex', justifyContent: 'center' }}><Image src="/3.png" alt="Description de l'image" width={900} height={500} /></div>
         {/* Ajoute ici le contenu de la page des conseils */}
       </div>
       <div className="flex items-center justify-center min-h-screen">
@@ -61,7 +62,7 @@ export default function Tips() {
 
 
         </p>
-        <Image className='items-center justify-center' src="/4.png" alt="Description de l'image" width={900} height={500} />
+        <div style={{ display: 'flex', justifyContent: 'center' }}><Image src="/4.png" alt="Description de l'image" width={900} height={500} /></div>
         {/* Ajoute ici le contenu de la page des conseils */}
       </div>
       <div className="flex items-center justify-center min-h-screen">
@@ -75,13 +76,13 @@ export default function Tips() {
           Ces exemples montrent que même les grandes entreprises ne sont pas à l'abri des attaques de phishing. Il est donc crucial de rester vigilant.
 
         </p>
-        <Image className='items-center justify-center' src="/5.png" alt="Description de l'image" width={900} height={500} />
+        <div style={{ display: 'flex', justifyContent: 'center' }}><Image src="/5.png" alt="Description de l'image" width={900} height={500} /></div>
         {/* Ajoute ici le contenu de la page des conseils */}
       </div>
       <div className="flex items-center justify-center min-h-screen">
         <h1 className="text-3xl font-bold"></h1>
         <h2>6/ Testez vos connaissances : Petit quizz interactif</h2>
-        <Image className='items-center justify-center' src="/6.png" alt="Description de l'image" width={900} height={500} />
+        <div style={{ display: 'flex', justifyContent: 'center' }}><Image src="/6.png" alt="Description de l'image" width={900} height={500} /></div>
         <p>
           Vérifiez vos connaissances avec ce quizz rapide sur les bonnes pratiques en matière de sécurité des emails. Savez-vous comment repérer une tentative de phishing ?
 
