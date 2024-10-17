@@ -1,7 +1,7 @@
 "use client"; // Indicate that this is a Client Component
 import React, { useState } from "react"; // Import React and useState
 import Link from "next/link"; // Import Link component
-
+import './globals.css';
 export default function Home() {
   const [inputValue, setInputValue] = useState(""); // State for input value
   const [riskScore, setRiskScore] = useState(null); // State for storing the risk score result
