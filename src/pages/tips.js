@@ -90,7 +90,7 @@ export default function Tips() {
           <p className='text-xl px-4 py-1'>
             Question 1 : Quel est un signe évident d'un email de phishing ?
           </p>
-          <ul className=' pl-8'>
+          <ul className=' pl-8 text-lg'>
             <li>A. Une adresse email suspecte.</li>
             <li>B. Un expéditeur que vous ne connaissez pas.</li>
             <li>C. Un lien non sécurisé.</li>
@@ -100,7 +100,7 @@ export default function Tips() {
           <p className='text-xl px-4 py-1'>
             Question 2 : Que devez-vous faire si vous recevez un email vous demandant vos informations bancaires ?
           </p>
-          <ul className=' pl-8'>
+          <ul className=' pl-8 text-lg'>
             <li>A. Fournir les informations demandées.</li>
             <li>B. Contacter directement l’institution en question via leur site officiel.</li>
             <li>C. Répondre à l'email pour en savoir plus.</li>
